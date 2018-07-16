@@ -34,13 +34,11 @@
   .layer{
     background-image: linear-gradient(to bottom, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
     width: 100%;
-    height: 100%;
   }
 
   .layer1{
     background-image: linear-gradient(to left, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
     width: 100%;
-    height: 100%;
   }
 
   .container {
@@ -101,7 +99,6 @@
     font-style: italic;
     text-transform: uppercase;
     overflow: hidden;
-    position: relative;
     margin: 0;
     text-align: center;
     white-space: nowrap;
@@ -121,12 +118,12 @@
   }
 
   .masterheader h1:before {
-    left: -10px;
+    left: -20px;
     margin-left: -50%;
   }
 
   .masterheader h1:after {
-    left: 10px;
+    left: 20px;
     margin-right: -50%;
   }
 
@@ -152,16 +149,19 @@
     margin-bottom: 50px;
   }
 
+  .btns{
+    display: flex;
+    width: 100%;
+    padding-bottom: 612px;
+    justify-content: center;
+  }
+
   .button1 > button{
-    display: inline;
-    float: left;
     margin-right: 20px;
-    margin-left: 26%;
-    margin-bottom: 612px;  
     border-radius: 30px;
     border: none;
     background-image: linear-gradient(to top,rgb(79,77,106), rgb(110,108,138));
-    width: 23%;
+    width: 210px;
     height: 42px;
     text-decoration: none;
     cursor: pointer;
@@ -175,13 +175,11 @@
   }
 
   .button2 > button{
-    display: inline;
     border-radius: 30px;
     border: none;
     background-image: linear-gradient(to top, rgb(156,131,148), rgb(208,194,202));
-    width: 23%;
+    width: 210px;
     height: 42px;
-    margin-bottom: 612px;
     text-decoration: none;
     cursor: pointer;
     font-size: 18px;
@@ -193,18 +191,221 @@
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
   }
   
-
-  .Light_Streaks {
-    background-image: url("Light Streaks.png");
-    opacity: 0.6;
-    position: absolute;
-    left: 0px;
-    top: 82px;
-    width: 1299px;
-    height: 1370px;
-    z-index: 94;
+  .works{
+    background-color:#ebebeb; 
   }
+
+  .text h1 {
+    padding-top: 70px;
+    font-size: 18px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-style: italic;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .text h1:before,
+  .text h1:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: white;
+  }
+
+  .text h1:before {
+    left: -20px;
+    margin-left: -50%;
+  }
+
+  .text h1:after {
+    left: 20px;
+    margin-right: -50%;
+  }
+
+  .text h2{
+    font-size: 72px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+  }
+
+  .img{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .img1{
+    width: 25%;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px; 
+  }
+
+  .img1 > a > img{
+    border: 20px solid #efefef;
+    border-radius: 50%;
+  }
+
+  .img1 h1{
+    padding-left: 25px;
+    padding-top: 20px; 
+    font-size: 22px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-style: italic;
+    text-align: left; 
+  }
+
+.img1 p{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-style: italic;
+    text-align: left;
+  }
+
+  .btns1{
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+
+  .button3 > button{
+    margin-right: 20px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to top,rgb(79,77,106), rgb(110,108,138));
+    width: 210px;
+    height: 42px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Georgia";
+    color: rgba(255, 255, 255);
+    line-height: 42px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
+  }
+
+  .button4 > button{
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to top, rgb(156,131,148), rgb(208,194,202));
+    width: 210px;
+    height: 42px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Georgia";
+    color: rgba(255, 255, 255);
+    line-height: 42px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
+  }
+
+  .features{
+    background-color: white;
+  }
+
+  .features h1{
+    font-size: 24px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-style: italic;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 10px; 
+    margin-bottom: 20px;
+  }
+
+  .collumns{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col p{
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-style: italic;
+    text-align: left;
+    line-height: 20px; 
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .col button{
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(79, 77, 106);
+    width: 100px;
+    height: 22px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    border: none;
+  }
+
+  .footer{
+    background-color: #505050;
+  }
+
+  .coll h1{
+    font-size: 24px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: left;
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .coll p{
+    font-size: 12px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    text-align: left; 
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .footer p{
+    font-size: 12px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    text-align: left; 
+    padding-bottom: 50px;
+  }
+
   
+  
+
+
   
 
   
