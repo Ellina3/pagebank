@@ -169,7 +169,7 @@
     cursor: pointer;
     font-size: 18px;
     font-family: "Georgia";
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     line-height: 42px;
     font-style: italic;
     text-align: center;
@@ -186,7 +186,7 @@
     cursor: pointer;
     font-size: 18px;
     font-family: "Georgia";
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     line-height: 42px;
     font-style: italic;
     text-align: center;
@@ -302,7 +302,7 @@
     cursor: pointer;
     font-size: 18px;
     font-family: "Georgia";
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     line-height: 42px;
     font-style: italic;
     text-align: center;
@@ -319,7 +319,7 @@
     cursor: pointer;
     font-size: 18px;
     font-family: "Georgia";
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     line-height: 42px;
     font-style: italic;
     text-align: center;
@@ -408,17 +408,120 @@
 
   @media only screen and (max-width: 768px) {
     .container {
-      width: 600px;
+      width: 650px;
+    }
+  
+    .logo {
+      float:right;
+    }
+  
+    .nav {
+      float: left; 
     }
   
     .nav ul li {
-    margin-left: 10px;
+      display: block;
+      position: initial;
+      margin-right: 10px;
     }
   
-    .nav a {
-    font-size: 12px;
+    ul.menu > li{ 
+      text-align: left;
+    } 
+  
+    ul.menu > li > a{
+      display: block;
+      line-height: 100px;
+      text-align: left;
+      font-size: 20px;
     }
- 
+  
+    ul.menu > li > a:hover {
+      color: black;
+    }
+  
+    ul.submenu {
+      display: none;
+      position: absolute;
+      right: 0px; 
+      text-align: left;
+      width: 100%;
+    }
+  
+    ul.submenu > li > a {
+      display: block;
+      line-height: 112px;
+      border-bottom: 1px solid #4f5168;
+      font-size: 25px;
+    }
+  
+    ul.submenu > li > a:hover {
+      color: black;
+    }
+  
+    ul.menu > li:hover > ul.submenu {
+      display: block;
+      background-color: rgb(131, 107, 107);
+    }
+
+    .banx {
+      margin-bottom: 40px;
+    }
+
+    .masterheader h2 {
+      font-size: 100px;
+    }
+
+    .btns {
+      padding-bottom: 200px;
+    }
+
+    .text h1 {
+      padding-top: 50px;
+    }
+
+    .img {
+      display: flex;
+      flex-flow: wrap;
+    }
+
+    .img1 {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+
+    .btns1 {
+      padding-bottom: 30px;
+    }
+
+    .collumns {
+      display: block;
+      padding-bottom: 0;
+    }
+
+    .features h1 {
+      font-size: 40px;
+    }
+
+    .col p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .col button {
+      font-size: 20px;
+      margin-bottom: 60px;
+      width: 130px;
+      height: 30px;
+    }
+
+    .footer p {
+      padding-bottom: 0;
+    }
+
+    .coll p {
+      margin-bottom: 10px;
+    }
   }
   
   @media only screen and (max-width: 480px) {
@@ -502,6 +605,10 @@
       display: block;
       text-align: center;
       padding-bottom: 100px;
+    }
+
+    .button1 > button {
+      margin-right: 0;
     }
 
     .masterheader button {
