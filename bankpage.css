@@ -31,18 +31,6 @@
     position: relative;
   }
 
-  .layer{
-    background: linear-gradient(to bottom, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
-      background: -webkit-linear-gradient(to bottom, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
-    width: 100%;
-  }
-
-  .layer1{
-    background: linear-gradient(to left, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
-      background: -webkit-linear-gradient(to left, rgb(247, 252, 252, 1), rgb(247, 252, 252,0));
-    width: 100%;
-  }
-
   .container {
     width: 960px;
     margin: 0 auto;
